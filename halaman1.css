@@ -1,0 +1,189 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*body*/
+
+body {
+	background-image: url(bg.png);
+}
+
+/*konten kotak*/
+
+.kotak {
+	width: 350px;
+	height: 50px;
+	color: gold;
+	padding-left: 5px;
+	box-sizing: border-box;
+	font-size: 30px;
+	background-color: black;
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	z-index: 9999;
+}
+.kotak1 {
+	font-size: 16px;
+	color: white;
+}
+
+/*konten kanan*/
+.container {
+	width: 1000px;
+	background-image: url(bg.png);
+	background-position: cover;
+	float: right;
+	border-left: solid gold;
+	box-sizing: border-box;
+	margin-top: 1px;
+	border-top: 1px solid gold;
+}
+.image {
+	height: 200px;
+	background-image: url(madu.png);
+	background-size: cover;
+	background-position: 0 -250px;
+}
+.judul {
+	color: gold;
+	font-size: 40px;
+	font-weight: bold;
+	margin-top: -50px;
+}
+.subjudul {
+	font-size: 20px;
+	color: white;
+	background-color: gold;
+}
+.container .isi {
+	padding-top: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	text-align: justify;
+}
+.isi h3 {
+	font-size: 20px;
+	font-weight: bold;
+	color: red;
+}
+
+/*konten kiri*/
+
+.container2 {
+	width: 300px;
+	box-sizing: border-box;
+	margin-top: 50px;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.judullist {
+	font-size: 30px;
+	padding-left: 10px;
+	box-sizing: border-box;
+	margin-bottom: 10px;
+	cursor: pointer;
+}
+.judullist:hover {
+	color: red;
+}
+.list {
+	padding-left: 10px;
+	box-sizing: border-box;
+}
+.container2 .list ol a {
+	text-decoration: none;
+	padding: 10px;
+	box-sizing: border-box;
+}
+.container2 .list ol a:hover {
+	color: blue;
+	font-size: 20px;
+}
+/*kontak*/
+.kontak {
+	width: 200px;
+	position: absolute;
+	left:20px;
+	bottom: 80px;
+	font-size: 25px;
+	border: 2px solid black;
+	padding: 5px;
+	box-sizing: border-box;
+	background-color: silver;
+	border-radius: 5px;
+	box-shadow: 2px 2px 2px black;
+}
+.kontak ul {
+	border: 2px solid black;
+	font-size: 20px;
+	background-color: black;
+	color: white;
+	border-radius: 5px;
+	padding: 2px;
+	box-sizing: border-box;
+}
+
+/*copyright*/
+
+.copyright {
+	font-size: 14px;
+	color: gold;
+	font-style: italic;
+	font-weight: lighter;
+	position: absolute;
+	left: 0;
+	top: 550px;
+	margin-left: 10px;
+}
+
+
+

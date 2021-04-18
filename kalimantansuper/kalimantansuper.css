@@ -1,0 +1,422 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*konten full*/
+
+body {
+	background-image: url(../bg.png);
+}
+
+/*konten atas*/
+
+.container {
+	width:100%;
+	height: 70px;
+	color: white;
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: black;
+	border-bottom: solid gold;
+	z-index: 9999;
+}
+.judul{
+	font-size: 40px;
+	font-weight: bold;
+	font-family: times new roman , calibri , sans-sherif;
+	padding-bottom: 10px;
+	padding-left: 3px;
+	color: gold;
+}
+.container .subjudul {
+	font-family: calibri, sans-sherif;
+	padding-left: 3px;
+	padding-bottom: 15px;
+}
+
+/*konten kiri*/
+
+.container2 {
+	width: auto;
+	height: 400px;
+	margin-top: 85px;
+	position: relative;
+	display: flex;
+	justify-content: space-around;
+}
+h1 {
+	font-size: 30px;
+	color: red;
+}
+h2	{
+	color: blue;
+	text-align: center;
+	padding-bottom: 5px;
+}
+
+.listmanfaat {
+	width: 400px;
+	height: 400px;
+	float: left;
+	position: absolute;
+	left: 20px;
+	top: 40px;
+
+}
+.listmanfaat-2 {
+	width: 400px;
+	height: 400px;
+	float: right;
+	position: absolute;
+	right:20px;
+	top: 40px;
+}
+ul .a{
+	color: white;
+	width:450px;
+	height: 50px;
+	padding: 3px;
+	background-color: black;
+	box-sizing: border-box;
+	margin-top: 10px;
+	font-size: 15px;
+	border-radius:30px ;
+	text-align: center;
+}
+ul .b {
+	color: white;
+	width:450px;
+	height: 50px;
+	padding: 3px;
+	background-color: black;
+	box-sizing: border-box;
+	font-size: 15px;
+	border-radius: 30px ;
+	text-align: center;
+	position: relative;
+	top:5px;
+	left:30px;
+
+}
+ul .c {
+	color: white;
+	width:450px;
+	height: 30px;
+	padding: 3px;
+	background-color: black;
+	box-sizing: border-box;
+	font-size: 15px;
+	border-radius:30px ;
+	text-align: center;
+	position: relative;
+	top: 10px;
+	left:60px;
+}
+ul .d {
+	color: white;
+	width:450px;
+	height: 50px;
+	padding: 3px;
+	background-color: black;
+	box-sizing: border-box;
+	font-size: 15px;
+	border-radius:30px ;
+	text-align: center;
+	position: relative;
+	top: 15px;
+	left: 90px;
+}
+ul .e {
+	color: white;
+	width:450px;
+	height: 30px;
+	padding: 3px;
+	background-color: black;
+	box-sizing: border-box;
+	font-size: 15px;
+	border-radius:30px ;
+	text-align: center;
+	position: relative;
+	top: 20px;
+	left:120px;
+}
+ul .f {
+	color: white;
+	width:450px;
+	height: 50px;
+	padding: 3px;
+	background-color: black;
+	box-sizing: border-box;
+	font-size: 15px;
+	border-radius:30px ;
+	text-align: center;
+	position: relative;
+	top: 25px;
+	left:150px;
+}
+.listmanfaat-2 ul .g{
+	color: white;
+	width:450px;
+	height: 50px;
+	padding: 3px;
+	background-color: black;
+	box-sizing: border-box;
+	margin-top: 10px;
+	font-size: 15px;
+	border-radius:30px ;
+	text-align: center;
+	position: relative;
+	left: -50px;
+}
+.listmanfaat-2 ul .h{
+	color: white;
+	width:450px;
+	height: 30px;
+	padding: 3px;
+	background-color: black;
+	box-sizing: border-box;
+	font-size: 15px;
+	border-radius:50px ;
+	text-align: center;
+	position: relative;
+	top:5px;
+	left:-75px;
+
+}
+.listmanfaat-2 ul .i{
+	color: white;
+	width:450px;
+	height: 50px;
+	padding: 3px;
+	background-color: black;
+	box-sizing: border-box;
+	font-size: 15px;
+	border-radius:30px ;
+	text-align: center;
+	position: relative;
+	top: 10px;
+	left:-105px;
+}
+.listmanfaat-2 ul .j{
+	color: white;
+	width:450px;
+	height: 30px;
+	padding: 3px;
+	background-color: black;
+	box-sizing: border-box;
+	font-size: 15px;
+	border-radius:30px ;
+	text-align: center;
+	position: relative;
+	top: 15px;
+	left:-130px;
+}
+.listmanfaat-2 ul .k{
+	color: white;
+	width:450px;
+	height: 50px;
+	padding: 3px;
+	background-color: black;
+	box-sizing: border-box;
+	font-size: 15px;
+	border-radius:30px ;
+	text-align: center;
+	position: relative;
+	top: 20px;
+	left:-155px;
+}
+.listmanfaat-2 ul .l{
+	color: white;
+	width:460px;
+	height: 50px;
+	padding: 3px;
+	background-color: black;
+	box-sizing: border-box;
+	font-size: 15px;
+	border-radius:30px ;
+	text-align: center;
+	position: relative;
+	top: 25px;
+	left:-180px;
+}
+.listmanfaat-2 ul .m{
+	color: white;
+	width:450px;
+	height: 50px;
+	padding: 10px;
+	background-color: black;
+	box-sizing: border-box;
+	font-size: 15px;
+	border-radius:30px ;
+	text-align: center;
+	position: relative;
+	top: 30px;
+	left:-480px;
+}
+/*overlay*/
+
+.container-tiga {
+	width: 500px;
+	background-color: white;
+	margin: auto;
+	border:2px solid gold;
+	position: relative;
+	border-radius: 5px;
+}
+.gallery li {
+	width: 120px;
+	height: 120px;
+	border:1px solid black;
+	float: left;
+	margin: 1.5px;
+	border-radius: 5px;
+}
+.clear {
+	clear: both;
+}
+
+.overlay {
+	width: 0;
+	height: 0;
+	position: fixed;
+	top: 0;
+	right: 0;
+	z-index: 9989;
+	background-color: rgba(0,0,0,0);
+	text-align: center;
+	padding-top: 90px;
+}
+.overlay:target {
+	width: auto;
+	height: auto;
+	left: 0;
+	bottom:0;
+	background-color: rgba(0,0,0,.6);
+
+}
+.overlay img {
+	width: 300px;
+	height: 400px;
+}
+.overlay .close {
+	color: white;
+	background-color: black;
+	border:2px solid gold;
+	text-decoration: none;
+	padding: 2px;
+	box-sizing: border-box;
+	position: absolute;
+	bottom:50px;
+	left:650px;
+}
+.overlay .next {
+	color: white;
+	background-color: black;
+	border:2px solid gold;
+	text-decoration: none;
+	padding: 2px;
+	box-sizing: border-box;
+	position: absolute;
+	bottom:50px;
+	left:740px;
+}
+.overlay .previous {
+	color: white;
+	background-color: black;
+	border:2px solid gold;
+	text-decoration: none;
+	padding: 2px;
+	box-sizing: border-box;
+	position: absolute;
+	bottom:50px;
+	left:520px;
+}
+/*navigasi*/
+
+.navigasi a {
+	text-decoration: none;
+	cursor: pointer;
+	color: red;
+	padding: 3px;
+	padding-left: 5px;
+	margin-left: 10px;
+	font-weight: bold;
+}
+.navigasi {
+	width: 300px;
+	display: inline-block;
+	position: absolute;
+	bottom:0;
+}
+.navigasi a:hover {
+	background-color: yellow;
+	font-size: 18px;
+	color: blue;
+}
+/*harga*/
+.table1 {
+    font-family: sans-serif;
+    color: white;
+    border-collapse: collapse;
+    background-color: black;
+    margin-top: -300px;
+    margin-left: 100px;
+}
+ 
+.table1, th, td {
+    border: 1.5px solid gold;
+    padding: 8px 20px;
+}
+caption {
+	font-size: 25px;
+	color: gold;
+	padding-bottom: 15px;
+}

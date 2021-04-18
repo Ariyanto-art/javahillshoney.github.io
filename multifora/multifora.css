@@ -1,0 +1,365 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*konten full*/
+
+body {
+	background-image: url(../bg.png);
+}
+
+/*konten atas*/
+
+.container {
+	width:100%;
+	height: 80px;
+	color: white;
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: black;
+	border-bottom: solid gold;
+	z-index: 9999;
+}
+.judul{
+	font-size: 40px;
+	font-weight: bold;
+	font-family: times new roman , calibri , sans-sherif;
+	padding-bottom: 10px;
+	padding-left: 3px;
+	color: gold;
+}
+.container .subjudul {
+	font-family: calibri, sans-sherif;
+	padding-left: 3px;
+	padding-bottom: 15px;
+}
+
+/*konten kiri*/
+
+.container-dua {
+	width: 600px;
+	padding-left: 10px;
+	padding-top: 10px;
+	float: left;
+	margin-top: 90px;
+}
+.manfaat h3 {
+	font-size: 25px;
+	color: red;
+}
+.manfaat ul {
+	padding-top: 10px;
+	font-size: 18px;
+	color: black;
+}
+.manfaat li {
+	padding-bottom: 8px;
+}
+ul .a {
+	color: white;
+	width:400px;
+	height: 30px;
+	padding: 3px;
+	background-color: black;
+	box-sizing: border-box;
+	margin-top: 10px;
+	font-size: 15px;
+	border-radius:400px ;
+	text-align: center;
+}
+ul .b {
+	color: white;
+	width:400px;
+	height: 30px;
+	padding: 3px;
+	background-color: black;
+	box-sizing: border-box;
+	font-size: 15px;
+	border-radius:400px ;
+	text-align: center;
+	position: relative;
+	top:5px;
+	left:30px;
+
+}
+ul .c {
+	color: white;
+	width:400px;
+	height: 40px;
+	padding: 3px;
+	background-color: black;
+	box-sizing: border-box;
+	font-size: 15px;
+	border-radius:400px ;
+	text-align: center;
+	position: relative;
+	top: 10px;
+	left:60px;
+}
+ul .d {
+	color: white;
+	width:400px;
+	height: 30px;
+	padding: 3px;
+	background-color: black;
+	box-sizing: border-box;
+	font-size: 15px;
+	border-radius:400px ;
+	text-align: center;
+	position: relative;
+	top: 15px;
+	left: 90px;
+}
+ul .e {
+	color: white;
+	width:400px;
+	height: 30px;
+	padding: 3px;
+	background-color: black;
+	box-sizing: border-box;
+	font-size: 15px;
+	border-radius:400px ;
+	text-align: center;
+	position: relative;
+	top: 20px;
+	left:60px;
+}
+ul .f {
+	color: white;
+	width:400px;
+	height: 30px;
+	padding: 3px;
+	background-color: black;
+	box-sizing: border-box;
+	font-size: 15px;
+	border-radius:400px ;
+	text-align: center;
+	position: relative;
+	top: 25px;
+	left:30px;
+}
+ul .g{
+	color: white;
+	width:400px;
+	height: 30px;
+	padding: 3px;
+	background-color: black;
+	box-sizing: border-box;
+	font-size: 15px;
+	border-radius:400px ;
+	text-align: center;
+	position: relative;
+	top: 30px;
+	left:0;
+}
+ul .h {
+	color: white;
+	width:400px;
+	height: 30px;
+	padding: 3px;
+	background-color: black;
+	box-sizing: border-box;
+	font-size: 15px;
+	border-radius:400px ;
+	text-align: center;
+	position: relative;
+	top: 35px;
+	left:30px;
+}
+ul .i {
+	color: white;
+	width:400px;
+	height: 30px;
+	padding: 3px;
+	background-color: black;
+	box-sizing: border-box;
+	font-size: 15px;
+	border-radius:400px ;
+	text-align: center;
+	position: relative;
+	top: 40px;
+	left:60px;
+}
+.clear{
+	clear: left;
+
+/*Navigasi*/
+}
+.navigasi a {
+	text-decoration: none;
+	color: red; 
+	font-weight: bold;
+	padding: 5px;
+	cursor: pointer;
+	margin-left: 15px;
+}
+
+.navigasi a:hover {
+	color: blue;
+	font-size: 15px;
+	background-color: yellow;
+
+}
+/*konten kanan*/
+
+.container-tiga {
+	width: 270px;
+	height: 100px;
+	margin-left:1000px;
+	margin-top: -400px;
+	border-radius: 5px;
+}
+.container-tiga p {
+	font-size: 16px;
+	color: blue;
+	position: absolute;
+	margin-top: -40px;
+}
+
+.gallery li {
+	width: 120px;
+	height: 120px;
+	float: left;
+	margin: auto 2px;
+	border:2px solid gold;
+	border-radius: 5px;
+	position: relative;
+	margin:auto;
+	overflow: hidden;
+}
+
+.overlay {
+	width: 0;
+	height: 0;
+	position: fixed;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right:0;
+	z-index: 9989;
+	background-color: rgba(0,0,0,0);
+	text-align: center;
+	padding-top:120px;
+	box-sizing: border-box;
+	overflow: hidden;
+}
+
+.overlay:target{
+	width: auto;
+	height: auto;
+	bottom: 0;
+	right: 0;
+	background-color : rgba(0,0,0,.7);
+
+}
+.overlay img {
+	width: 300px;
+	height: 320px;
+}
+
+.overlay .close {
+	text-decoration: none;
+	position: absolute;
+	bottom: 100px;
+	left: 650px; 
+	margin: auto;
+	background-color: black;
+	border:2px solid gold;
+	color: white;
+	padding: 2px;
+	box-sizing: border-box;
+}
+.overlay .next {
+	text-decoration: none;
+	position: absolute;
+	bottom: 100px;
+	left: 750px;
+	margin:auto;
+	background-color: black;
+	border:2px solid gold;
+	color: white;
+	padding: 2px;
+	box-sizing: border-box;
+}
+.overlay .previous {
+	text-decoration: none;
+	position: absolute;
+	bottom: 100px;
+	left: 530px;
+	margin: auto;
+	background-color: black;
+	border:2px solid gold;
+	color: white;
+	padding: 2px;
+	box-sizing: border-box;
+}
+.clear {
+	clear: both;
+}
+/*harga*/
+.table1 {
+    font-family: sans-serif;
+    color: white;
+    border-collapse: collapse;
+    background-color: black;
+    margin-top: -300px;
+    margin-left: 100px;
+}
+ 
+.table1, th, td {
+    border: 1.5px solid gold;
+    padding: 8px 20px;
+}
+caption {
+	font-size: 25px;
+	color: gold;
+	padding-bottom: 15px;
+}

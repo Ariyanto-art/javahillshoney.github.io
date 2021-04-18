@@ -1,0 +1,374 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*konten full*/
+
+body {
+	background-image: url(../bg.png);
+}
+
+/*konten atas*/
+
+.container {
+	width: 100%;
+	height: 80px;
+	color: gold;
+	background-color: black;
+	position: fixed;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	border-bottom: solid gold;
+	z-index: 9999;
+}
+.container .judul {
+	font-size: 40px;
+	font-weight: bold;
+	font-family: times new roman , sans-sherif;
+	padding-left: 3px;
+}
+.container .subjudul {
+	color: white;
+	font-family: calibri , sans-sherif;
+	padding-top: 10px;
+}
+
+/*konten bawah*/
+.container-satu {
+	width: auto;
+	height: 400px;
+	padding-top: 90px;
+}
+.manfaat {
+	width: 500px;
+	height: 400px;
+	font-size: 25px;
+	color: red;
+	padding-left: 10px;
+	box-sizing: border-box;
+	position: relative;
+}
+ul .a {
+	color: white;
+	width:400px;
+	height: 30px;
+	padding: 3px;
+	background-color: black;
+	box-sizing: border-box;
+	margin-top: 10px;
+	font-size: 15px;
+	border-radius:30px ;
+	text-align: center;
+	position: relative;
+}
+ul .b {
+	color: white;
+	width:400px;
+	height: 30px;
+	padding: 3px;
+	background-color: black;
+	box-sizing: border-box;
+	font-size: 15px;
+	border-radius: 30px ;
+	text-align: center;
+	position: relative;
+	top:5px;
+	left:30px;
+
+}
+ul .c {
+	color: white;
+	width:400px;
+	height: 30px;
+	padding: 3px;
+	background-color: black;
+	box-sizing: border-box;
+	font-size: 15px;
+	border-radius:30px ;
+	text-align: center;
+	position: relative;
+	top: 10px;
+	left:60px;
+}
+ul .d {
+	color: white;
+	width:400px;
+	height: 30px;
+	padding: 3px;
+	background-color: black;
+	box-sizing: border-box;
+	font-size: 15px;
+	border-radius:30px ;
+	text-align: center;
+	position: relative;
+	top: 15px;
+	left: 90px;
+}
+ul .e {
+	color: white;
+	width:400px;
+	height: 30px;
+	padding: 3px;
+	background-color: black;
+	box-sizing: border-box;
+	font-size: 15px;
+	border-radius:30px ;
+	text-align: center;
+	position: relative;
+	top: 20px;
+	left:60px;
+}
+ul .f {
+	color: white;
+	width:400px;
+	height: 30px;
+	padding: 3px;
+	background-color: black;
+	box-sizing: border-box;
+	font-size: 15px;
+	border-radius:30px ;
+	text-align: center;
+	position: relative;
+	top: 25px;
+	left:30px;
+}
+ul .g {
+	color: white;
+	width:400px;
+	height: 30px;
+	padding: 3px;
+	background-color: black;
+	box-sizing: border-box;
+	margin-top: 30px;
+	font-size: 15px;
+	border-radius:30px ;
+	text-align: center;
+	position: relative;
+}
+ul .h {
+	color: white;
+	width:400px;
+	height: 30px;
+	padding: 3px;
+	background-color: black;
+	box-sizing: border-box;
+	font-size: 15px;
+	border-radius: 30px ;
+	text-align: center;
+	position: relative;
+	top:5px;
+	left:30px;
+
+}
+ul .i {
+	color: white;
+	width:400px;
+	height: 30px;
+	padding: 3px;
+	background-color: black;
+	box-sizing: border-box;
+	font-size: 15px;
+	border-radius:30px ;
+	text-align: center;
+	position: relative;
+	top: 10px;
+	left:60px;
+}
+ul .j {
+	color: white;
+	width:400px;
+	height: 30px;
+	padding: 3px;
+	background-color: black;
+	box-sizing: border-box;
+	font-size: 15px;
+	border-radius:30px ;
+	text-align: center;
+	position: relative;
+	top: 15px;
+	left:90px;
+}
+ul .k {
+	color: white;
+	width:400px;
+	height: 30px;
+	padding: 3px;
+	background-color: black;
+	box-sizing: border-box;
+	font-size: 15px;
+	border-radius:30px ;
+	text-align: center;
+	position: relative;
+	top: 20px;
+	left: 60px;
+}
+
+/*overlay*/
+.container-dua{
+	width: 250px;
+	background-color: white;
+	position: absolute;
+	top: 120px;
+	right: 100px;
+	border:2px solid gold;
+	border-radius: 5px;
+}
+h1	{
+	color: blue;
+	position: absolute;
+	top: 100px;
+	right: 80px;
+}
+.gallery li {
+	width: 120px;
+	height: 120px;
+	float: left;
+	border:1px solid black;
+	margin:1.5px;
+	border-radius: 5px;
+}
+.overlay img {
+	width: 350px;
+	height: 450px;
+}
+.overlay {
+	width: 0;
+	height: 0;
+	position: fixed;
+	top: 0;
+	left: 0;
+	background-color: rgba(0,0,0,0);
+	z-index: 9989;
+	overflow: hidden;
+	padding-top: 100px;
+	text-align: center;
+	box-sizing: border-box;
+}
+.overlay:target {
+	width: auto;
+	height: auto;
+	bottom: 0;
+	right: 0;
+	background-color: rgba(0,0,0,.6);
+}
+.overlay .close {
+	color: white;
+	background-color: black;
+	border:2px solid gold;
+	text-decoration: none;
+	padding: 2px;
+	box-sizing: border-box;
+	position: absolute;
+	bottom:20px;
+	left:650px;
+}
+.overlay .next {
+	color: white;
+	background-color: black;
+	border:2px solid gold;
+	text-decoration: none;
+	padding: 2px;
+	box-sizing: border-box;
+	position: absolute;
+	bottom:20px;
+	left:760px;
+}
+.overlay .previous {
+	color: white;
+	background-color: black;
+	border:2px solid gold;
+	text-decoration: none;
+	padding: 2px;
+	box-sizing: border-box;
+	position: absolute;
+	bottom:20px;
+	left:520px;
+}
+/*navigasi*/
+
+.navigasi a {
+	text-decoration: none;
+	cursor: pointer;
+	color: red;
+	padding: 3px;
+	padding-left: 5px;
+	margin-left: 10px;
+	font-weight: bold;
+}
+.navigasi {
+	width: 300px;
+	display: inline-block;
+	position: absolute;
+	bottom:20px;
+}
+.navigasi a:hover {
+	background-color: yellow;
+	font-size: 18px;
+	color: blue;
+}
+/*harga*/
+.table1 {
+    font-family: sans-serif;
+    color: white;
+    border-collapse: collapse;
+    background-color: black;
+    margin-top: -300px;
+    margin-left: 100px;
+}
+ 
+.table1, th, td {
+    border: 1.5px solid gold;
+    padding: 8px 20px;
+}
+caption {
+	font-size: 25px;
+	color: gold;
+	padding-bottom: 15px;
+}
