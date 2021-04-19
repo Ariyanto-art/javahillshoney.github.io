@@ -199,17 +199,12 @@ body {
 		padding-left: 0;
 	}
 	.kontak {
-		width: 200px;
-		font-size: 25px;
-		padding: 1px;
 		position: absolute;
-		left:10px;
-		bottom: 40px;
+		bottom: 76%;
 	}
 	.kontak ul {
 		font-size: 16px;
 		padding: 2px;
-
 	}
 	.kotak {
 	width: 350px;
@@ -253,5 +248,3 @@ body {
 		top: 550px;
 	}
 }
-
-
