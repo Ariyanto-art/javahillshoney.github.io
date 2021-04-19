@@ -270,9 +270,13 @@ body {
 	display: none;
 	}
 	.isi {
+		width:100%;
+		height:auto;
 		font-size: 30px;
 	}
 	.isi h3 {
+		width:100%;
+		height:auto;
 		font-size: 40px;
 	}
 	.copyright {
