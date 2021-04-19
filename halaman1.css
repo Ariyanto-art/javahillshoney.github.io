@@ -195,8 +195,7 @@ body {
 	.container2 {
 		width: 100%;
 		font-size: 20px;
-		position: absolute;
-		top: 60%;
+		position: relative;
 	}
 	.judullist {
 		font-size: 40px;
