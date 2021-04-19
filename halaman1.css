@@ -219,14 +219,13 @@ body {
 		padding: 2px;
 	}
 	.kontak {
-		width: auto;
+		width: 50%;
 		height: auto;
 		font-size: 50px;
-		position: absolute;
-		bottom: 15%;
-		left: 10px;
+		position: relative;
 		box-shadow: 8px 8px 8px black;
 		border-radius: 10px;
+		margin-top: 350px;
 	}
 	.kontak ul {
 		width: auto;
@@ -276,13 +275,13 @@ body {
 	}
 	.isi {
 		width: 100%;
-		height: auto;
+		height: 50%;
 		font-size: 25px;
 		position: relative;
 	}
 	.isi h3 {
 		width: 100%;
-		height: auto;
+		height: 50%;
 		font-size: 40px;
 	}
 	.copyright {
