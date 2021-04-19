@@ -50,8 +50,7 @@ table {
 /*body*/
 
 body {
-/* 	background-image: url(bg.PNG); */
-	background-color: salmon;
+	background-image: url(bg.png);
 }
 
 /*konten kotak*/
@@ -186,5 +185,73 @@ body {
 	margin-left: 10px;
 }
 
+/*media*/
+
+@media screen and (max-width: 768px){
+	.container2 {
+		width: 150px;
+		font-size: 13px;
+	}
+	.judullist {
+		font-size: 18px;
+	}
+	.list {
+		padding-left: 0;
+	}
+	.kontak {
+		width: 150px;
+		font-size: 15px;
+		padding: 1px;
+		position: absolute;
+		left:8px;
+		bottom: 200px;
+	}
+	.kontak ul {
+		font-size: 12px;
+		padding: 2px;
+
+	}
+	.kotak {
+	width: 200px;
+	height: 30px;
+	color: gold;
+	padding-left: 0;
+	box-sizing: border-box;
+	font-size: 18px;
+	background-color: black;
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	z-index: 9999;
+	}
+	.kotak1 {
+	font-size: 10px;
+	color: white;
+	}
+	.container {
+		width: 236px;
+	}
+	.image {
+	height: 100px;
+	background-size: cover;
+	background-position: 0 -250px;
+	}
+	.judul {
+	font-size: 20px;
+	margin-top: -30px;
+	}
+	.subjudul {
+	font-size: 15px;
+	}
+	.isi {
+		font-size: 13px;
+	}
+	.copyright {
+		font-size: 12px;
+		top: 450px;
+	}
+}
 
 
