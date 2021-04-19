@@ -90,7 +90,8 @@ body {
 	height: 200px;
 	background-image: url(madu.png);
 	background-size: cover;
-	background-position: 0 -250px;
+	background-position: 5px -250px;
+	padding: 10px;
 }
 .judul {
 	color: gold;
@@ -103,7 +104,10 @@ body {
 	color: white;
 	background-color: gold;
 }
-.container .isi {
+.isi {
+	position: relative;
+	width: 100%;
+	height:300px;
 	padding-top: 10px;
 	padding-left: 10px;
 	padding-right: 10px;
@@ -192,7 +196,7 @@ body {
 		width: 100%;
 		font-size: 20px;
 		position: absolute;
-		top: 63%;
+		top: 55%;
 	}
 	.judullist {
 		font-size: 40px;
@@ -255,6 +259,7 @@ body {
 		width: 100%;
 	}
 	.image {
+		width: 100%;
 	height: 200px;
 	background-size: cover;
 	background-position: 0 -250px;
@@ -270,14 +275,14 @@ body {
 	display: none;
 	}
 	.isi {
-		width:100%;
-		height:auto;
-		font-size: 30px;
-		position : relative;
+		width: 100%;
+		height: auto;
+		font-size: 25px;
+		position: relative;
 	}
 	.isi h3 {
-		width:100%;
-		height:auto;
+		width: 100%;
+		height: auto;
 		font-size: 40px;
 	}
 	.copyright {
