@@ -200,7 +200,7 @@ body {
 	}
 	.kontak {
 		position: absolute;
-		bottom: 76%;
+		bottom: 25%;
 	}
 	.kontak ul {
 		font-size: 16px;
@@ -226,7 +226,7 @@ body {
 	color: white;
 	}
 	.container {
-		width: 700px;
+		width: 60%;
 	}
 	.image {
 	height: 200px;
@@ -245,6 +245,6 @@ body {
 	}
 	.copyright {
 		font-size: 12px;
-		top: 550px;
+		top: 80%;
 	}
 }
