@@ -189,30 +189,54 @@ body {
 
 @media screen and (max-width: 1080px){
 	.container2 {
-		width: 300px;
-		font-size: 16px;
+		width: 100%;
+		font-size: 20px;
+		position: absolute;
+		top: 63%;
 	}
 	.judullist {
-		font-size: 30px;
+		font-size: 40px;
+		color: blue;
+		font-family: times new roman , sans-sherif ;
 	}
-	.list {
+	.list ol {
+		font-size: 25px;
+		width: 100%;
+		height: auto;
+		display: flex;
+		flex-wrap: wrap;
 		padding-left: 0;
 	}
-	.kontak {
-		position: absolute;
-		bottom: 25%;
-	}
-	.kontak ul {
-		font-size: 16px;
+	ol li {
+		border: 2px solid black;
+		border-radius: 8px;
+		box-shadow: 3px 3px 3px black;
+		margin:3px;
 		padding: 2px;
 	}
+	.kontak {
+		width: auto;
+		height: auto;
+		font-size: 50px;
+		position: absolute;
+		bottom: 15%;
+		left: 10px;
+		box-shadow: 8px 8px 8px black;
+		border-radius: 10px;
+	}
+	.kontak ul {
+		width: auto;
+		height: auto;
+		font-size: 40px;
+		padding: 10px;
+	}
 	.kotak {
-	width: 350px;
-	height: 50px;
+	width: 100%;
+	height: 5%;
 	color: gold;
 	padding-left: 0;
 	box-sizing: border-box;
-	font-size: 25px;
+	font-size: 50px;
 	background-color: black;
 	position: fixed;
 	top: 0;
@@ -220,31 +244,39 @@ body {
 	left: 0;
 	right: 0;
 	z-index: 9999;
+	text-align: center;
+	border-bottom: 5px gold;
 	}
 	.kotak1 {
-	font-size: 15px;
+	font-size: 30px;
 	color: white;
 	}
 	.container {
-		width: 60%;
+		width: 100%;
 	}
 	.image {
 	height: 200px;
 	background-size: cover;
 	background-position: 0 -250px;
+	margin-top: 90px;
 	}
 	.judul {
 	font-size: 30px;
 	margin-top: -50px;
+	display: none;
 	}
 	.subjudul {
 	font-size: 20px;
+	display: none;
 	}
 	.isi {
-		font-size: 16px;
+		font-size: 30px;
+	}
+	.isi h3 {
+		font-size: 40px;
 	}
 	.copyright {
-		font-size: 12px;
-		top: 80%;
+		font-size: 25px;
+		top: 95%;
 	}
 }
