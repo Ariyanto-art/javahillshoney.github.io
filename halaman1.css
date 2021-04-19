@@ -273,6 +273,7 @@ body {
 		width:100%;
 		height:auto;
 		font-size: 30px;
+		position : relative;
 	}
 	.isi h3 {
 		width:100%;
