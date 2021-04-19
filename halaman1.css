@@ -206,7 +206,7 @@ body {
 	.list ol {
 		font-size: 25px;
 		width: 100%;
-		height: auto;
+		height: 50%;
 		display: flex;
 		flex-wrap: wrap;
 		padding-left: 0;
