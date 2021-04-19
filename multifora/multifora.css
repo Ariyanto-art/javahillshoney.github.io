@@ -368,69 +368,96 @@ caption {
 
 @media screen and (max-width: 1080px){
 	.container {
-		height: 60px;
+		width: auto;
+		height: 6%;
 	}
 	.judul {
-		font-size: 25px;
-		padding: 0;
+		font-size: 50px;
 	}
 	.subjudul {
-		font-size: 13px;
-	}
-	.container-dua {
-		padding-top: 0;
-		margin-top: 70px;
-	}
-	.manfaat h3 {
 		font-size: 20px;
 	}
-	.manfaat ul li {
-	color: white;
-	width:400px;
-	height: 30px;
-	padding: 3px;
-	background-color: black;
-	box-sizing: border-box;
-	box-shadow: 2px 2px 2px black;
-	font-size: 15px;
-	border-radius:20px ;
-	text-align: center;
-	position: relative;
-	left:0;
-	}
-	.container-tiga  {
-	margin-top: 0;
-	}
-	.container-tiga p{
-		width: 300px;
-		font-size: 13px;
+	.container-dua {
+		width: 100%;
+		height: 50%;
 		position: absolute;
-		top: 120px;
-		right: 60px;
+		padding-top: 30px;
+		box-sizing: border-box;
+		text-align: center;
+	}
+	.manfaat h3 {
+		font-size: 40px;
+		padding-bottom: 10px;
+	}
+	.manfaat ul {
+		width: 100%;
+		height: auto;
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.manfaat li {
+		width: 50%;
+		height: auto;
+		font-size: 25px;
+		left: 0;
+		padding-top: 5px;
+	}
+	.container-tiga {
+		width: 100%;
+		height: auto;
+		display: flex;
+		justify-content: center;
+		position: relative;
+		margin-left: 0;
+		margin-top: 40%;
+		padding: 2px;
+		padding-left: 20%;
+		box-sizing: border-box;
+	}
+	.container-tiga p {
+		font-size: 25px;
+		left: 30%;
 	}
 	.gallery {
-		width: 270px;
-		height: 250px;
-		display: flex;
-		overflow: auto;
+		width: 100%;
+		height: 100%;
+		padding-top: 30px;
+	}
+	.navigasi {
+		font-size: 25px;
 		position: absolute;
-		top: 100px;
-		right: 80px;
+		bottom: 10%;
 	}
-	.gallery li { 
-	position: relative;
-	left: 0;
+	.overlay img {
+		width: 55%;
+		height: 55%;
+		border:2px solid pink;
+		box-shadow: 3px 3px 3px pink;
+		border-radius: 10px;
 	}
-	.overlay .close {
-		bottom: 20px;
-		left: 500px;
+	.table1 {
+		position: absolute;
+		font-size: 25px;
+		bottom: 20%;									
 	}
-	.overlay .next {
-		bottom: 20px;
-		left:600px;
+	.table1 th,td {
+		border:2px solid gold;
+	} 
+	caption {
+		font-size: 35px;
 	}
-	.overlay .previous {
-		bottom: 20px;
-		left:370px;
+	.overlay .close  {
+		font-size: 30px;
+		position: absolute;
+		bottom: 30%;
+		left: 60%;
+		border-radius: 7px;
+	}
+	.overlay .next  {
+		font-size: 30px;
+		position: absolute;
+		bottom: 25%;
+		left: 60%;
+		border-radius: 7px;
 	}
 }
