@@ -187,7 +187,7 @@ body {
 
 /*media*/
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 1080px){
 	.container2 {
 		width: 150px;
 		font-size: 13px;
@@ -212,12 +212,12 @@ body {
 
 	}
 	.kotak {
-	width: 200px;
-	height: 30px;
+	width: 260px;
+	height: 50px;
 	color: gold;
 	padding-left: 0;
 	box-sizing: border-box;
-	font-size: 18px;
+	font-size: 25px;
 	background-color: black;
 	position: fixed;
 	top: 0;
@@ -227,26 +227,26 @@ body {
 	z-index: 9999;
 	}
 	.kotak1 {
-	font-size: 10px;
+	font-size: 15px;
 	color: white;
 	}
 	.container {
-		width: 236px;
+		width: 800px;
 	}
 	.image {
-	height: 100px;
+	height: 200px;
 	background-size: cover;
 	background-position: 0 -250px;
 	}
 	.judul {
-	font-size: 20px;
-	margin-top: -30px;
+	font-size: 30px;
+	margin-top: -50px;
 	}
 	.subjudul {
-	font-size: 15px;
+	font-size: 20px;
 	}
 	.isi {
-		font-size: 13px;
+		font-size: 16px;
 	}
 	.copyright {
 		font-size: 12px;
