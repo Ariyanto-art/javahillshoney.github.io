@@ -189,30 +189,30 @@ body {
 
 @media screen and (max-width: 1080px){
 	.container2 {
-		width: 150px;
-		font-size: 13px;
+		width: 300px;
+		font-size: 16px;
 	}
 	.judullist {
-		font-size: 18px;
+		font-size: 30px;
 	}
 	.list {
 		padding-left: 0;
 	}
 	.kontak {
-		width: 150px;
-		font-size: 15px;
+		width: 200px;
+		font-size: 25px;
 		padding: 1px;
 		position: absolute;
-		left:8px;
-		bottom: 200px;
+		left:10px;
+		bottom: 40px;
 	}
 	.kontak ul {
-		font-size: 12px;
+		font-size: 16px;
 		padding: 2px;
 
 	}
 	.kotak {
-	width: 260px;
+	width: 350px;
 	height: 50px;
 	color: gold;
 	padding-left: 0;
@@ -231,7 +231,7 @@ body {
 	color: white;
 	}
 	.container {
-		width: 800px;
+		width: 700px;
 	}
 	.image {
 	height: 200px;
@@ -250,7 +250,7 @@ body {
 	}
 	.copyright {
 		font-size: 12px;
-		top: 450px;
+		top: 550px;
 	}
 }
 
