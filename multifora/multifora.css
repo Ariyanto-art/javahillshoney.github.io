@@ -363,3 +363,74 @@ caption {
 	color: gold;
 	padding-bottom: 15px;
 }
+
+/*media*/
+
+@media screen and (max-width: 1080px){
+	.container {
+		height: 60px;
+	}
+	.judul {
+		font-size: 25px;
+		padding: 0;
+	}
+	.subjudul {
+		font-size: 13px;
+	}
+	.container-dua {
+		padding-top: 0;
+		margin-top: 70px;
+	}
+	.manfaat h3 {
+		font-size: 20px;
+	}
+	.manfaat ul li {
+	color: white;
+	width:400px;
+	height: 30px;
+	padding: 3px;
+	background-color: black;
+	box-sizing: border-box;
+	box-shadow: 2px 2px 2px black;
+	font-size: 15px;
+	border-radius:20px ;
+	text-align: center;
+	position: relative;
+	left:0;
+	}
+	.container-tiga  {
+	margin-top: 0;
+	}
+	.container-tiga p{
+		width: 300px;
+		font-size: 13px;
+		position: absolute;
+		top: 120px;
+		right: 60px;
+	}
+	.gallery {
+		width: 270px;
+		height: 250px;
+		display: flex;
+		overflow: auto;
+		position: absolute;
+		top: 100px;
+		right: 80px;
+	}
+	.gallery li { 
+	position: relative;
+	left: 0;
+	}
+	.overlay .close {
+		bottom: 20px;
+		left: 500px;
+	}
+	.overlay .next {
+		bottom: 20px;
+		left:600px;
+	}
+	.overlay .previous {
+		bottom: 20px;
+		left:370px;
+	}
+}
