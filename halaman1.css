@@ -225,13 +225,18 @@ body {
 		position: relative;
 		box-shadow: 8px 8px 8px black;
 		border-radius: 10px;
-		margin-top: 130px;
+		margin-top: 120px;
 	}
 	.kontak ul {
 		width: auto;
 		height: auto;
 		font-size: 40px;
 		padding: 10px;
+		background-color: gold;
+		color: black;
+	}
+	.kontak ul a {
+		color: black;
 	}
 	.kotak {
 	width: 100%;
