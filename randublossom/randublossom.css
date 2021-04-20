@@ -338,13 +338,11 @@ caption {
 		width: 100%;
 		height:auto;
 		padding-top: 120px;
-		display: flex;
-		flex-wrap: wrap;
+		box-sizing: border-box;
 	}
 	.listmanfaat li {
 		width: 50%;
-		height: auto;
-		left: 0;
+		height: 50%;
 		font-size: 25px;
 	}
 	.container3 p {
