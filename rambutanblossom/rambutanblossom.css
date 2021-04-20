@@ -291,3 +291,89 @@ caption {
 	color: gold;
 	padding-bottom: 15px;
 }
+
+/*media*/
+
+@media screen and (max-width: 1080px){
+	.container {
+		width: auto;
+		height: 6.5%;
+	}
+	.judul {
+		font-size: 50px;
+	}
+	.subjudul {
+		font-size: 20px;
+		padding-left: 5px;
+		box-sizing: border-box;
+	}
+	.container-satu {
+		width: 100%;
+		height: auto;
+	}
+	.manfaat {
+		width: 100%;
+		height: auto;
+		font-size: 30px;
+		padding-top: 40px;
+		padding-left: 10px;
+		box-sizing: border-box;
+	}
+	.lismanfaat ul {
+		width: 100%;
+		height: auto;
+		position: relative;
+	}
+	.listmanfaat li{
+		width: 50%;
+		height: auto;
+		font-size: 25px;
+		margin-top: 5px;
+	}
+	h1 {
+		font-size: 25px;
+		padding-top: 400px;
+		left: 270px;
+	}
+	.container-dua {
+		position: absolute;
+		left: 0;
+		margin-top: 450px;
+		margin-left: 45%;
+	}
+	.navigasi {
+		font-size: 25px;
+		position: absolute;
+		bottom: 10%;
+	}
+	.overlay {
+		margin-top: 50px;
+	}
+	.overlay img {
+		width: 55%;
+		height: 50%;
+		border:2px solid pink;
+		box-shadow: 3px 3px 3px pink;
+		border-radius: 2px;
+		box-sizing: border-box;
+	}
+	.table1 {
+		position: absolute;
+		font-size: 25px;
+		bottom: 20%;									
+	}
+	.table1 th,td {
+		border:2px solid gold;
+	} 
+	caption {
+		font-size: 35px;
+	}
+	.overlay .close  {
+		font-size: 30px;
+		position: absolute;
+		bottom: 25%;
+		left: 60%;
+		border-radius: 7px;
+	}
+
+}
