@@ -328,3 +328,120 @@ caption {
 	color: gold;
 	padding-bottom: 15px;
 }
+
+/*media*/
+
+@media screen and (max-width: 1080px){
+	.container {
+		width: auto;
+		height: 8%;
+	}
+	.judul {
+		font-size: 50px;
+	}
+	.subjudul {
+		font-size: 20px;
+		padding-left: 5px;
+		box-sizing: border-box;
+	}
+	.container1 {
+		width: 100%;
+		height: 50%;
+		position: absolute;
+		padding-top: 30px;
+		box-sizing: border-box;
+		text-align: center;
+	}
+	.manfaat {
+		padding-top: 10px;
+		font-size: 40px;
+	}
+	.listmanfaat {
+		width: 100%;
+		height:50%;
+		padding-top: 100px;
+	}
+	.listmanfaat ul {
+		width: 100%;
+		height: auto;
+		padding-top: 120px;
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.listmanfaat li {
+		width: 50%;
+		height: auto;
+		font-size: 25px;
+		left: 0;
+		padding-top: 5px;
+	}
+	.container2 {
+		width: 100%;
+		height: auto;
+		display: flex;
+		justify-content: center;
+		position: relative;
+		margin-left: 0;
+		margin-top: 5%;
+		padding: 2px;
+		padding-left: 33%;
+		box-sizing: border-box;
+	}
+	.container2 p {
+		font-size: 25px;
+		left: 37%;
+	}
+	.gallery {
+		width: 100%;
+		height: 100%;
+		padding-top: 30px;
+	}
+	.navigasi {
+		font-size: 25px;
+		position: absolute;
+		bottom: 10%;
+	}
+	.overlay {
+		margin-top: 50px;
+	}
+	.overlay img {
+		width: 55%;
+		height: 50%;
+		border:2px solid pink;
+		box-shadow: 3px 3px 3px pink;
+		border-radius: 2px;
+		box-sizing: border-box;
+	}
+	.table1 {
+		position: absolute;
+		font-size: 25px;
+		bottom: 20%;									
+	}
+	.table1 th,td {
+		border:2px solid gold;
+	} 
+	caption {
+		font-size: 35px;
+	}
+	.overlay .close  {
+		font-size: 30px;
+		position: absolute;
+		bottom: 25%;
+		left: 60%;
+		border-radius: 7px;
+	}
+	.overlay .next  {
+		font-size: 30px;
+		position: absolute;
+		bottom: 20%;
+		left: 60%;
+		border-radius: 7px;
+	}
+	.overlay .previous  {
+		font-size: 30px;
+		position: absolute;
+		bottom: 30%;
+		left: 60%;
+		border-radius: 7px;
+	}
+}
