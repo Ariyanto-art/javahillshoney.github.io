@@ -329,10 +329,15 @@ caption {
 		width: 100%;
 		height: auto;
 	}
+	.listmanfaat {
+		width: 100%;
+		height: auto;
+		padding-top: 100px;
+	}
 	.listmanfaat ul {
 		width: 100%
 		height:auto;
-		padding-top: 220px;
+		padding-top: 120px;
 		display: flex;
 		flex-wrap: wrap;
 	}
