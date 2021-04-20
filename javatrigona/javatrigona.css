@@ -338,3 +338,119 @@ caption {
 	color: gold;
 	padding-bottom: 15px;
 }
+/*media*/
+
+@media screen and (max-width: 1080px){
+	.container {
+		width: auto;
+		height: 5%;
+	}
+	.container .judul {
+		font-size: 50px;
+	}
+	.container .subjudul {
+		font-size: 25px;
+		padding-left: 5px;
+		box-sizing: border-box;
+	}
+	.container-satu {
+		width: 130%;
+		height:auto;
+	}
+	.container-satu .manfaat {
+		width: 100%;
+		height: auto;
+		padding-top: 30px;
+		box-sizing: border-box;
+		font-size:30px;
+		right: 0;
+	} 
+	.container-satu .listmanfaat li{
+		width: 100%;
+		height:auto;
+		float: left;
+		left:0;
+		font-size: 18px;
+		padding: 5px;
+	}
+	.container-satu .istimewa {
+		width: 100%;
+		height: auto;
+		padding-top: 30px;
+		box-sizing: border-box;
+		font-size: 30px;
+	}
+	.container-satu .istimewa-satu li{
+		width: 100%;
+		height:auto;
+		float: left;
+		left: 0;
+		position: relative;
+		font-size: 18px;
+		padding: 5px;
+	}
+	h1 {
+		font-size: 25px;
+		padding-top: 300px;
+		left: 300px;
+	}
+	.container-dua {
+		position: absolute;
+		left: 50%;
+		top: 37%;
+	}
+	.gallery {
+		width:auto;
+		height: auto;
+		margin-top: 10px;
+	}
+	.navigasi {
+		font-size: 25px;
+		position: absolute;
+		bottom: 10%;
+	}
+	.overlay {
+		margin-top: 50px;
+	}
+	.overlay img {
+		width: 55%;
+		height: 50%;
+		border:2px solid pink;
+		box-shadow: 3px 3px 3px pink;
+		border-radius: 2px;
+		box-sizing: border-box;
+	}
+	.table1 {
+		position: absolute;
+		font-size: 25px;
+		bottom: 25%;									
+	}
+	.table1 th,td {
+		border:2px solid gold;
+	} 
+	caption {
+		font-size: 35px;
+	}
+	.overlay .close  {
+		font-size: 30px;
+		position: absolute;
+		bottom: 25%;
+		left: 60%;
+		border-radius: 7px;
+	}
+	.overlay .next  {
+		font-size: 30px;
+		position: absolute;
+		bottom: 20%;
+		left: 60%;
+		border-radius: 7px;
+	}
+	.overlay .previous  {
+		font-size: 30px;
+		position: absolute;
+		bottom: 30%;
+		left: 60%;
+		border-radius: 7px;
+	}
+
+}
