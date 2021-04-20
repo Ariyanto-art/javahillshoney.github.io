@@ -335,7 +335,7 @@ caption {
 		padding-top: 100px;
 	}
 	.listmanfaat ul {
-		width: 100%
+		width: 100%;
 		height:auto;
 		padding-top: 120px;
 		display: flex;
@@ -343,7 +343,7 @@ caption {
 	}
 	.listmanfaat li {
 		width: 50%;
-		height: 50%;
+		height: auto;
 		left: 0;
 		font-size: 25px;
 	}
