@@ -46,6 +46,10 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+/*body*/
+body {
+	background: linear-gradient(to right, #cc9900 0%, #cc6600 100%);
+}
 /*konten kotak*/
 
 .kotak {
@@ -71,7 +75,6 @@ table {
 /*konten kanan*/
 .container {
 	width: 1000px;
-/*	background-image: url(bg.png);*/
 	background-position: cover;
 	float: right;
 	border-left: solid gold;
@@ -85,6 +88,8 @@ table {
 	background-size: cover;
 	background-position: 5px -250px;
 	padding: 10px;
+	border-top: 5px solid gold;
+	border-bottom:5px solid gold;
 }
 .judul {
 	color: gold;
@@ -186,7 +191,6 @@ table {
 
 @media screen and (max-width: 1080px){
 	.container2 {
-		background-color: white;
 		width: 100%;
 		font-size: 20px;
 		position: relative;
