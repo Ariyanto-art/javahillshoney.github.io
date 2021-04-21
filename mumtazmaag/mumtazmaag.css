@@ -363,3 +363,74 @@ h2 {
 	text-align: center;
 	color: blue;
 }
+/*harga*/
+.table1 {
+    font-family: sans-serif;
+    color: white;
+    border-collapse: collapse;
+    background-color: black;
+    margin-top: -300px;
+    margin-left: 100px;
+}
+ 
+.table1, th, td {
+    border: 1.5px solid gold;
+    padding: 8px 20px;
+}
+caption {
+	font-size: 25px;
+	color: gold;
+	padding-bottom: 15px;
+}
+/*media*/
+
+@media screen and (max-width: 1080px){
+	.navigasi {
+		font-size: 25px;
+		position: absolute;
+		bottom: 10%;
+	}
+	.overlay {
+		margin-top: 50px;
+	}
+	.overlay img {
+		width: 55%;
+		height: 50%;
+		border:2px solid pink;
+		box-shadow: 3px 3px 3px pink;
+		border-radius: 2px;
+		box-sizing: border-box;
+	}
+	.table1 {
+		position: absolute;
+		font-size: 25px;
+		bottom: 25%;									
+	}
+	.table1 th,td {
+		border:2px solid gold;
+	} 
+	caption {
+		font-size: 35px;
+	}
+	.overlay .close  {
+		font-size: 30px;
+		position: absolute;
+		bottom: 25%;
+		left: 60%;
+		border-radius: 7px;
+	}
+	.overlay .next  {
+		font-size: 30px;
+		position: absolute;
+		bottom: 20%;
+		left: 60%;
+		border-radius: 7px;
+	}
+	.overlay .previous  {
+		font-size: 30px;
+		position: absolute;
+		bottom: 30%;
+		left: 60%;
+		border-radius: 7px;
+	}
+}
