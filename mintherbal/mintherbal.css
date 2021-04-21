@@ -46,238 +46,95 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-
-/*konten full*/
-
+/*body*/
 body {
-	background-image: url(../bg.png);
+	background: linear-gradient(to right, #cc9900 0%, #cc6600 100%);
 }
-
-/*konten atas*/
-
+/*header*/
 .container {
 	width: 100%;
-	height: 80px;
-	color: gold;
+	height: 60px;
 	background-color: black;
+	z-index: 9999;
 	position: fixed;
 	left: 0;
-	right: 0;
 	top: 0;
 	bottom: 0;
-	border-bottom: solid gold;
-	z-index: 9999;
+	right: 0;
 }
 .container .judul {
-	font-size: 40px;
-	font-weight: bold;
-	font-family: times new roman , sans-sherif;
-	padding-left: 3px;
+	font-size: 30px;
+	color: gold;
 }
-.container .subjudul {
+.subjudul p {
 	color: white;
-	font-family: calibri , sans-sherif;
-	padding-top: 10px;
 }
-
-/*konten bawah*/
+/*manfaat*/
 .container-satu {
-	width: auto;
-	height: 400px;
-	padding-top: 90px;
+	width: 100%;
+	height: 300px;
+	margin-top: 60px;
 }
-.manfaat {
-	width: 500px;
-	height: 400px;
-	font-size: 25px;
+table {
+	border-collapse: separate;
+	text-align: center;
+	border-spacing: 3px;
+	border-radius: 3px;
+}
+caption {
+	font-size: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	box-sizing: border-box;
 	color: red;
-	padding-left: 10px;
-	box-sizing: border-box;
-	position: relative;
 }
-ul .a {
-	color: white;
-	width:400px;
-	height: 30px;
-	padding: 3px;
-	background-color: black;
+table tr, th ,td {
+	border-spacing: 5px;
+	font-size: 20px;
+	border:1px solid black;
+	padding: 2px;
 	box-sizing: border-box;
-	margin-top: 10px;
-	font-size: 15px;
-	border-radius:30px ;
-	text-align: center;
-	position: relative;
 }
-ul .b {
-	color: white;
-	width:400px;
-	height: 30px;
-	padding: 3px;
-	background-color: black;
-	box-sizing: border-box;
-	font-size: 15px;
-	border-radius: 30px ;
-	text-align: center;
-	position: relative;
-	top:5px;
-	left:30px;
-
+.table tr:nth-child(odd) {
+	background-color: gold;
 }
-ul .c {
-	color: white;
-	width:400px;
-	height: 30px;
-	padding: 3px;
-	background-color: black;
-	box-sizing: border-box;
-	font-size: 15px;
-	border-radius:30px ;
+h1 {
+	font-size: 20px;
 	text-align: center;
-	position: relative;
-	top: 10px;
-	left:60px;
-}
-ul .d {
-	color: white;
-	width:400px;
-	height: 30px;
-	padding: 3px;
-	background-color: black;
-	box-sizing: border-box;
-	font-size: 15px;
-	border-radius:30px ;
-	text-align: center;
-	position: relative;
-	top: 15px;
-	left: 90px;
-}
-ul .e {
-	color: white;
-	width:400px;
-	height: 30px;
-	padding: 3px;
-	background-color: black;
-	box-sizing: border-box;
-	font-size: 15px;
-	border-radius:30px ;
-	text-align: center;
-	position: relative;
-	top: 20px;
-	left:60px;
-}
-ul .f {
-	color: white;
-	width:400px;
-	height: 30px;
-	padding: 3px;
-	background-color: black;
-	box-sizing: border-box;
-	font-size: 15px;
-	border-radius:30px ;
-	text-align: center;
-	position: relative;
-	top: 25px;
-	left:30px;
-}
-ul .g {
-	color: white;
-	width:400px;
-	height: 30px;
-	padding: 3px;
-	background-color: black;
-	box-sizing: border-box;
-	margin-top: 30px;
-	font-size: 15px;
-	border-radius:30px ;
-	text-align: center;
-	position: relative;
-}
-ul .h {
-	color: white;
-	width:400px;
-	height: 30px;
-	padding: 3px;
-	background-color: black;
-	box-sizing: border-box;
-	font-size: 15px;
-	border-radius: 30px ;
-	text-align: center;
-	position: relative;
-	top:5px;
-	left:30px;
-
-}
-ul .i {
-	color: white;
-	width:400px;
-	height: 30px;
-	padding: 3px;
-	background-color: black;
-	box-sizing: border-box;
-	font-size: 15px;
-	border-radius:30px ;
-	text-align: center;
-	position: relative;
-	top: 10px;
-	left:60px;
-}
-ul .j {
-	color: white;
-	width:400px;
-	height: 30px;
-	padding: 3px;
-	background-color: black;
-	box-sizing: border-box;
-	font-size: 15px;
-	border-radius:30px ;
-	text-align: center;
-	position: relative;
-	top: 15px;
-	left:90px;
-}
-ul .k {
-	color: white;
-	width:400px;
-	height: 30px;
-	padding: 3px;
-	background-color: black;
-	box-sizing: border-box;
-	font-size: 15px;
-	border-radius:30px ;
-	text-align: center;
-	position: relative;
-	top: 20px;
-	left: 60px;
+	position: absolute;
+	top: 70px;
+	right: 170px;
+	color: blue;
 }
 
-/*overlay*/
-.container-dua{
-	width: 250px;
-	background-color: white;
+/*gambar*/
+.container-dua {
+	width: 100%;
+	height: auto;
+}
+.gallery {
+	width: auto;
+	height: auto;
+	background-color: gold;
+	margin: auto;
 	position: absolute;
 	top: 120px;
-	right: 100px;
-	border:2px solid gold;
-	border-radius: 5px;
-}
-h1	{
-	color: blue;
-	position: absolute;
-	top: 100px;
-	right: 80px;
+	right: 90px;
+	border-radius: 3px;
+
 }
 .gallery li {
 	width: 120px;
 	height: 120px;
 	float: left;
-	border:1px solid black;
-	margin:1.5px;
-	border-radius: 5px;
+	margin: auto;
+	padding: 2px;
 }
-.overlay img {
-	width: 350px;
-	height: 450px;
+.clear {
+	clear: both;
 }
+
+/*overlay*/
 .overlay {
 	width: 0;
 	height: 0;
@@ -298,10 +155,17 @@ h1	{
 	right: 0;
 	background-color: rgba(0,0,0,.6);
 }
+.overlay img {
+	width: 300px;
+	height: 400px;
+	box-shadow: 2px 2px  silver;
+}
 .overlay .close {
 	color: white;
+	font-size: 20px;
 	background-color: black;
 	border:2px solid gold;
+	border-radius: 5px;
 	text-decoration: none;
 	padding: 2px;
 	box-sizing: border-box;
@@ -311,25 +175,29 @@ h1	{
 }
 .overlay .next {
 	color: white;
+	font-size: 20px;
 	background-color: black;
 	border:2px solid gold;
+	border-radius: 5px;
 	text-decoration: none;
 	padding: 2px;
 	box-sizing: border-box;
 	position: absolute;
 	bottom:20px;
-	left:760px;
+	left:750px;
 }
 .overlay .previous {
 	color: white;
+	font-size: 20px;
 	background-color: black;
 	border:2px solid gold;
+	border-radius: 5px;
 	text-decoration: none;
 	padding: 2px;
 	box-sizing: border-box;
 	position: absolute;
 	bottom:20px;
-	left:520px;
+	left:530px;
 }
 /*navigasi*/
 
@@ -346,7 +214,7 @@ h1	{
 	width: 300px;
 	display: inline-block;
 	position: absolute;
-	bottom:20px;
+	bottom:10px;
 }
 .navigasi a:hover {
 	background-color: yellow;
@@ -354,7 +222,7 @@ h1	{
 	color: blue;
 }
 /*harga*/
-.table1 {
+.table2 {
     font-family: sans-serif;
     color: white;
     border-collapse: collapse;
@@ -363,22 +231,70 @@ h1	{
     margin-left: 100px;
 }
  
-.table1, th, td {
+.table2 tr , .table2 td , .table2 th{
     border: 1.5px solid gold;
     padding: 8px 20px;
 }
-caption {
+.table2 caption {
 	font-size: 25px;
-	color: gold;
+	color: white;
 	padding-bottom: 15px;
 }
 /*media*/
-
 @media screen and (max-width: 1080px){
+	.container {
+		width: auto;
+		height: 6%;
+		padding-left: 5px;
+		box-sizing: border-box;
+	}
+	.container .judul {
+		font-size: 50px;
+		color: gold;
+	}
+	.subjudul p {
+		font-size: 25px;
+		color: white;
+	}
+	.container-satu {
+		width: auto;
+		height: auto;
+	}
+	.table caption {
+		padding-top: 60px;
+		font-size: 35px;
+	}
+	table {
+		margin: auto;
+		padding-top: 20px;
+	}
+	.table tr, th ,td {
+	font-size: 35px;
+	border:1px solid gold;
+	box-sizing: border-box;
+	border-radius: 5px;
+	}
+	.container-dua {
+		width: auto;
+		height: auto;
+		position: relative;
+		left: -160px;
+	}
+	h1 {
+		position: relative;
+		bottom: 0;
+		right: 20px;
+		font-size: 30px;
+	}
+	.gallery li {
+		width: auto;
+		height: auto;
+	}
 	.navigasi {
+		width: auto;
 		font-size: 25px;
 		position: absolute;
-		bottom: 10%;
+		bottom: 3%;
 	}
 	.overlay {
 		margin-top: 50px;
@@ -391,15 +307,15 @@ caption {
 		border-radius: 2px;
 		box-sizing: border-box;
 	}
-	.table1 {
+	.table2 {
 		position: absolute;
 		font-size: 25px;
-		bottom: 25%;									
+		bottom: 20%;									
 	}
-	.table1 th,td {
+	.table2 th, .table2 td {
 		border:2px solid gold;
 	} 
-	caption {
+	.table2 caption {
 		font-size: 35px;
 	}
 	.overlay .close  {
