@@ -298,8 +298,8 @@ h1 {
 	.navigasi {
 		width: auto;
 		font-size: 25px;
-		position: absolute;
-		bottom: 1%;
+		position: relative;
+		bottom: -850px;
 	}
 	.overlay {
 		margin-top: 50px;
