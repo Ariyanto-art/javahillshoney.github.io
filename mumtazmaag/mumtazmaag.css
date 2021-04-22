@@ -281,7 +281,8 @@ h1 {
 		padding-top: 60px;
 		font-size: 35px;
 	}
-	table {
+	.listmanfaat {
+		width: 80%;
 		margin: auto;
 		padding-top: 20px;
 	}
@@ -301,7 +302,7 @@ h1 {
 		position: relative;
 		bottom: 0;
 		right: 20px;
-		font-size: 30px;
+		font-size: 25px;
 	}
 	.gallery li {
 		width: auto;
@@ -355,5 +356,8 @@ h1 {
 		bottom: 30%;
 		left: 60%;
 		border-radius: 7px;
+	}
+	.aturan {
+		font-size: 25px;
 	}
 }

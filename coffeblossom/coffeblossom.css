@@ -46,271 +46,184 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-
-/*konten full*/
-
+/*body*/
 body {
-	background-image: url(../bg.png);
+	background: linear-gradient(to right, #cc9900 0%, #cc6600 100%);
 }
-
-/*konten atas*/
-
+/*header*/
 .container {
 	width: 100%;
-	height: 100px;
-	color: gold;
+	height: 80px;
 	background-color: black;
+	z-index: 9999;
 	position: fixed;
 	left: 0;
-	right: 0;
 	top: 0;
 	bottom: 0;
-	border-bottom: solid gold;
-	z-index: 9999;
+	right: 0;
 }
-
 .container .judul {
-	font-size: 40px;
-	font-weight: bold;
-	font-family: times new roman , sans-sherif;
-	padding-left: 3px;
+	font-size: 35px;
+	color: gold;
 }
-.container .subjudul {
+.subjudul p {
 	color: white;
-	font-family: calibri , sans-sherif;
-	padding-top: 10px;
+	padding: 2px;
 }
-
-/*konten bawah*/
-
-.container1 {
-	width: 270px;
-	height: 30px;
-	margin-top: 110px;
-	padding: 3px;
-	box-sizing: border-box;
-}
-.manfaat {
-	font-size: 25px;
-	color: red;
-}
-.listmanfaat {
-	position: relative;
-}
-ul .a {
-	color: white;
-	width:400px;
-	height: 30px;
-	padding: 3px;
-	background-color: black;
-	box-sizing: border-box;
-	margin-top: 10px;
-	font-size: 15px;
-	border-radius:400px ;
-	text-align: center;
-}
-ul .b {
-	color: white;
-	width:400px;
-	height: 30px;
-	padding: 3px;
-	background-color: black;
-	box-sizing: border-box;
-	font-size: 15px;
-	border-radius:400px ;
-	text-align: center;
-	position: relative;
-	top:5px;
-	left:30px;
-
-}
-ul .c {
-	color: white;
-	width:400px;
-	height: 30px;
-	padding: 3px;
-	background-color: black;
-	box-sizing: border-box;
-	font-size: 15px;
-	border-radius:400px ;
-	text-align: center;
-	position: relative;
-	top: 10px;
-	left:60px;
-}
-ul .d {
-	color: white;
-	width:400px;
-	height: 30px;
-	padding: 3px;
-	background-color: black;
-	box-sizing: border-box;
-	font-size: 15px;
-	border-radius:400px ;
-	text-align: center;
-	position: relative;
-	top: 15px;
-	left: 90px;
-}
-ul .e {
-	color: white;
-	width:400px;
-	height: 30px;
-	padding: 3px;
-	background-color: black;
-	box-sizing: border-box;
-	font-size: 15px;
-	border-radius:400px ;
-	text-align: center;
-	position: relative;
-	top: 20px;
-	left:60px;
-}
-ul .f {
-	color: white;
-	width:400px;
-	height: 30px;
-	padding: 3px;
-	background-color: black;
-	box-sizing: border-box;
-	font-size: 15px;
-	border-radius:400px ;
-	text-align: center;
-	position: relative;
-	top: 25px;
-	left:30px;
-}
-ul .g{
-	color: white;
-	width:400px;
-	height: 30px;
-	padding: 3px;
-	background-color: black;
-	box-sizing: border-box;
-	font-size: 15px;
-	border-radius:400px ;
-	text-align: center;
-	position: relative;
-	top: 30px;
-	left:0;
-}
-ul .h {
-	color: white;
-	width:400px;
-	height: 30px;
-	padding: 3px;
-	background-color: black;
-	box-sizing: border-box;
-	font-size: 15px;
-	border-radius:400px ;
-	text-align: center;
-	position: relative;
-	top: 35px;
-	left:30px;
-}
-
-/* navigasi*/
-
-.navigasi a {
-	text-decoration: none;
-	color: red;
-	cursor: pointer;
-	padding: 3px;
-	padding-left: 5px;
-	margin-left: 5px;
-	font-weight: bold;
-}
-.navigasi a:hover {
-	font-size: 15px;
-	color: blue;
-	background-color: yellow;
-}
-/*konten kanan*/
-
-.container2 {
-	width: 300px;
+/*manfaat*/
+.container-satu {
+	width: 100%;
 	height: 300px;
-	float: right;
-	margin-top: -400px;
-	margin-right: 100px;
+	margin-top: 80px;
 }
-.container2 p {
-	font-size: 16px;
-	color: blue;
+table {
+	border-collapse: separate;
+	text-align: center;
+	border-spacing: 3px;
+	border-radius: 3px;
+}
+caption {
+	font-size: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	box-sizing: border-box;
+	color: red;
+}
+table tr, th ,td {
+	border-spacing: 5px;
+	font-size: 20px;
+	border:1px solid black;
+	padding: 2px;
+	box-sizing: border-box;
+}
+.table tr:nth-child(odd) {
+	background-color: gold;
+}
+h1 {
+	font-size: 20px;
+	text-align: center;
 	position: absolute;
-	margin-top: -30px;
+	top: 90px;
+	right: 150px;
+	color: blue;
+}
+
+/*gambar*/
+.container-dua {
+	width: 100%;
+	height: auto;
+}
+.gallery {
+	width: auto;
+	height: auto;
+	background-color: gold;
+	margin: auto;
+	position: absolute;
+	top: 120px;
+	right: 90px;
+	border-radius: 3px;
+
 }
 .gallery li {
 	width: 120px;
 	height: 120px;
-	margin: auto;
-	border:2px solid gold;
-	border-radius: 5px;
 	float: left;
-	position: relative;
-	overflow: hidden;
-	text-align: center;
+	margin: auto;
+	padding: 2px;
 }
+.clear {
+	clear: both;
+}
+
+/*overlay*/
 .overlay {
 	width: 0;
 	height: 0;
-	overflow: hidden;
 	position: fixed;
 	top: 0;
 	left: 0;
 	background-color: rgba(0,0,0,0);
 	z-index: 9989;
+	overflow: hidden;
+	padding-top: 100px;
 	text-align: center;
-	padding-top: 120px;
-	margin: auto;
+	box-sizing: border-box;
 }
-.overlay:target{
+.overlay:target {
 	width: auto;
 	height: auto;
 	bottom: 0;
 	right: 0;
-	background-color: rgba(0,0,0,.7);
+	background-color: rgba(0,0,0,.6);
 }
 .overlay img {
 	width: 300px;
-	height: 370px;
+	height: 400px;
+	box-shadow: 2px 2px  silver;
 }
-
 .overlay .close {
-	background-color: black;
 	color: white;
-	border :2px solid gold;
-	position: absolute;
-	bottom:40px;
-	left: 650px;
+	font-size: 20px;
+	background-color: black;
+	border:2px solid gold;
+	border-radius: 5px;
+	text-decoration: none;
 	padding: 2px;
 	box-sizing: border-box;
-	text-decoration: none;
+	position: absolute;
+	bottom:20px;
+	left:650px;
 }
 .overlay .next {
-	background-color: black;
 	color: white;
-	border :2px solid gold;
-	position: absolute;
-	bottom:40px;
-	left: 750px;
+	font-size: 20px;
+	background-color: black;
+	border:2px solid gold;
+	border-radius: 5px;
+	text-decoration: none;
 	padding: 2px;
 	box-sizing: border-box;
-	text-decoration: none;
+	position: absolute;
+	bottom:20px;
+	left:750px;
 }
 .overlay .previous {
-	background-color: black;
 	color: white;
-	border :2px solid gold;
-	position: absolute;
-	bottom:40px;
-	left: 530px;
+	font-size: 20px;
+	background-color: black;
+	border:2px solid gold;
+	border-radius: 5px;
+	text-decoration: none;
 	padding: 2px;
 	box-sizing: border-box;
+	position: absolute;
+	bottom:20px;
+	left:530px;
+}
+/*navigasi*/
+
+.navigasi a {
 	text-decoration: none;
+	cursor: pointer;
+	color: red;
+	padding: 3px;
+	padding-left: 5px;
+	margin-left: 10px;
+	font-weight: bold;
+}
+.navigasi {
+	width: 300px;
+	display: inline-block;
+	position: absolute;
+	bottom:10px;
+}
+.navigasi a:hover {
+	background-color: yellow;
+	font-size: 18px;
+	color: blue;
 }
 /*harga*/
-.table1 {
+.table2 {
     font-family: sans-serif;
     color: white;
     border-collapse: collapse;
@@ -319,87 +232,71 @@ ul .h {
     margin-left: 100px;
 }
  
-.table1, th, td {
+.table2 tr , .table2 td , .table2 th{
     border: 1.5px solid gold;
     padding: 8px 20px;
 }
-caption {
+.table2 caption {
 	font-size: 25px;
-	color: gold;
+	color: white;
 	padding-bottom: 15px;
 }
-
 /*media*/
-
 @media screen and (max-width: 1080px){
 	.container {
 		width: auto;
 		height: 8%;
-	}
-	.judul {
-		font-size: 50px;
-	}
-	.subjudul {
-		font-size: 20px;
 		padding-left: 5px;
 		box-sizing: border-box;
 	}
-	.container1 {
-		width: 100%;
-		height: 50%;
-		position: absolute;
-		padding-top: 30px;
-		box-sizing: border-box;
-		text-align: center;
+	.container .judul {
+		font-size: 50px;
+		color: gold;
 	}
-	.manfaat {
-		padding-top: 10px;
-		font-size: 40px;
-	}
-	.listmanfaat {
-		width: 100%;
-		height:50%;
-		padding-top: 100px;
-	}
-	.listmanfaat ul {
-		width: 100%;
-		height: auto;
-		padding-top: 120px;
-		display: flex;
-		flex-wrap: wrap;
-	}
-	.listmanfaat li {
-		width: 50%;
-		height: auto;
+	.subjudul p {
 		font-size: 25px;
-		left: 0;
-		padding-top: 5px;
+		color: white;
 	}
-	.container2 {
-		width: 100%;
+	.container-satu {
+		width: auto;
 		height: auto;
-		display: flex;
-		justify-content: center;
+	}
+	.table caption {
+		padding-top: 80px;
+		font-size: 35px;
+	}
+	.table {
+		width: auto;
+		margin: auto;
+		padding-top: 20px;
+	}
+	.table tr, th ,td {
+	font-size: 35px;
+	border:1px solid gold;
+	box-sizing: border-box;
+	border-radius: 5px;
+	}
+	.container-dua {
+		width: auto;
+		height: auto;
 		position: relative;
-		margin-left: 0;
-		margin-top: 5%;
-		padding: 2px;
-		padding-left: 33%;
-		box-sizing: border-box;
+		left: -200px;
 	}
-	.container2 p {
-		font-size: 25px;
-		left: 37%;
+	h1 {
+		position: relative;
+		bottom: 0;
+		right: 40px;
+		font-size: 30px;
 	}
-	.gallery {
-		width: 100%;
-		height: 100%;
-		padding-top: 30px;
+	.gallery li {
+		width: auto;
+		height: auto;
 	}
 	.navigasi {
+		width: auto;
 		font-size: 25px;
 		position: absolute;
-		bottom: 10%;
+		bottom: 3%;
 	}
 	.overlay {
 		margin-top: 50px;
@@ -412,15 +309,15 @@ caption {
 		border-radius: 2px;
 		box-sizing: border-box;
 	}
-	.table1 {
+	.table2 {
 		position: absolute;
 		font-size: 25px;
 		bottom: 20%;									
 	}
-	.table1 th,td {
+	.table2 th, .table2 td {
 		border:2px solid gold;
 	} 
-	caption {
+	.table2 caption {
 		font-size: 35px;
 	}
 	.overlay .close  {

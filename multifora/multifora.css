@@ -46,306 +46,184 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-
-/*konten full*/
-
+/*body*/
 body {
-	background-image: url(../bg.png);
+	background: linear-gradient(to right, #cc9900 0%, #cc6600 100%);
 }
-
-/*konten atas*/
-
+/*header*/
 .container {
-	width:100%;
-	height: 80px;
-	color: white;
+	width: 100%;
+	height: 60px;
+	background-color: black;
+	z-index: 9999;
 	position: fixed;
+	left: 0;
 	top: 0;
 	bottom: 0;
-	left: 0;
 	right: 0;
-	background-color: black;
-	border-bottom: solid gold;
-	z-index: 9999;
 }
-.judul{
-	font-size: 40px;
-	font-weight: bold;
-	font-family: times new roman , calibri , sans-sherif;
-	padding-bottom: 10px;
-	padding-left: 3px;
+.container .judul {
+	font-size: 30px;
 	color: gold;
 }
-.container .subjudul {
-	font-family: calibri, sans-sherif;
-	padding-left: 3px;
-	padding-bottom: 15px;
+.subjudul p {
+	color: white;
 }
-
-/*konten kiri*/
-
-.container-dua {
-	width: 600px;
-	padding-left: 10px;
+/*manfaat*/
+.container-satu {
+	width: 100%;
+	height: 300px;
+	margin-top: 60px;
+}
+table {
+	border-collapse: separate;
+	text-align: center;
+	border-spacing: 3px;
+	border-radius: 3px;
+}
+caption {
+	font-size: 20px;
 	padding-top: 10px;
-	float: left;
-	margin-top: 90px;
-}
-.manfaat h3 {
-	font-size: 25px;
+	padding-bottom: 10px;
+	box-sizing: border-box;
 	color: red;
 }
-.manfaat ul {
-	padding-top: 10px;
-	font-size: 18px;
-	color: black;
-}
-.manfaat li {
-	padding-bottom: 8px;
-}
-ul .a {
-	color: white;
-	width:400px;
-	height: 30px;
-	padding: 3px;
-	background-color: black;
+table tr, th ,td {
+	border-spacing: 5px;
+	font-size: 20px;
+	border:1px solid black;
+	padding: 2px;
 	box-sizing: border-box;
-	margin-top: 10px;
-	font-size: 15px;
-	border-radius:400px ;
+}
+.table tr:nth-child(odd) {
+	background-color: gold;
+}
+h1 {
+	font-size: 20px;
 	text-align: center;
-}
-ul .b {
-	color: white;
-	width:400px;
-	height: 30px;
-	padding: 3px;
-	background-color: black;
-	box-sizing: border-box;
-	font-size: 15px;
-	border-radius:400px ;
-	text-align: center;
-	position: relative;
-	top:5px;
-	left:30px;
-
-}
-ul .c {
-	color: white;
-	width:400px;
-	height: 40px;
-	padding: 3px;
-	background-color: black;
-	box-sizing: border-box;
-	font-size: 15px;
-	border-radius:400px ;
-	text-align: center;
-	position: relative;
-	top: 10px;
-	left:60px;
-}
-ul .d {
-	color: white;
-	width:400px;
-	height: 30px;
-	padding: 3px;
-	background-color: black;
-	box-sizing: border-box;
-	font-size: 15px;
-	border-radius:400px ;
-	text-align: center;
-	position: relative;
-	top: 15px;
-	left: 90px;
-}
-ul .e {
-	color: white;
-	width:400px;
-	height: 30px;
-	padding: 3px;
-	background-color: black;
-	box-sizing: border-box;
-	font-size: 15px;
-	border-radius:400px ;
-	text-align: center;
-	position: relative;
-	top: 20px;
-	left:60px;
-}
-ul .f {
-	color: white;
-	width:400px;
-	height: 30px;
-	padding: 3px;
-	background-color: black;
-	box-sizing: border-box;
-	font-size: 15px;
-	border-radius:400px ;
-	text-align: center;
-	position: relative;
-	top: 25px;
-	left:30px;
-}
-ul .g{
-	color: white;
-	width:400px;
-	height: 30px;
-	padding: 3px;
-	background-color: black;
-	box-sizing: border-box;
-	font-size: 15px;
-	border-radius:400px ;
-	text-align: center;
-	position: relative;
-	top: 30px;
-	left:0;
-}
-ul .h {
-	color: white;
-	width:400px;
-	height: 30px;
-	padding: 3px;
-	background-color: black;
-	box-sizing: border-box;
-	font-size: 15px;
-	border-radius:400px ;
-	text-align: center;
-	position: relative;
-	top: 35px;
-	left:30px;
-}
-ul .i {
-	color: white;
-	width:400px;
-	height: 30px;
-	padding: 3px;
-	background-color: black;
-	box-sizing: border-box;
-	font-size: 15px;
-	border-radius:400px ;
-	text-align: center;
-	position: relative;
-	top: 40px;
-	left:60px;
-}
-.clear{
-	clear: left;
-
-/*Navigasi*/
-}
-.navigasi a {
-	text-decoration: none;
-	color: red; 
-	font-weight: bold;
-	padding: 5px;
-	cursor: pointer;
-	margin-left: 15px;
-}
-
-.navigasi a:hover {
-	color: blue;
-	font-size: 15px;
-	background-color: yellow;
-
-}
-/*konten kanan*/
-
-.container-tiga {
-	width: 270px;
-	height: 100px;
-	margin-left:1000px;
-	margin-top: -400px;
-	border-radius: 5px;
-}
-.container-tiga p {
-	font-size: 16px;
-	color: blue;
 	position: absolute;
-	margin-top: -40px;
+	top: 70px;
+	right: 150px;
+	color: blue;
 }
 
+/*gambar*/
+.container-dua {
+	width: 100%;
+	height: auto;
+}
+.gallery {
+	width: auto;
+	height: auto;
+	background-color: gold;
+	margin: auto;
+	position: absolute;
+	top: 120px;
+	right: 50px;
+	border-radius: 3px;
+	overflow: hidden;
+
+}
 .gallery li {
 	width: 120px;
 	height: 120px;
 	float: left;
-	margin: auto 2px;
-	border:2px solid gold;
-	border-radius: 5px;
-	position: relative;
-	margin:auto;
-	overflow: hidden;
+	margin: auto;
+	padding: 2px;
+}
+.clear {
+	clear: both;
 }
 
+/*overlay*/
 .overlay {
 	width: 0;
 	height: 0;
 	position: fixed;
 	top: 0;
 	left: 0;
-	bottom: 0;
-	right:0;
-	z-index: 9989;
 	background-color: rgba(0,0,0,0);
-	text-align: center;
-	padding-top:120px;
-	box-sizing: border-box;
+	z-index: 9989;
 	overflow: hidden;
+	padding-top: 100px;
+	text-align: center;
+	box-sizing: border-box;
 }
-
-.overlay:target{
+.overlay:target {
 	width: auto;
 	height: auto;
 	bottom: 0;
 	right: 0;
-	background-color : rgba(0,0,0,.7);
-
+	background-color: rgba(0,0,0,.6);
 }
 .overlay img {
 	width: 300px;
-	height: 320px;
+	height: 400px;
+	box-shadow: 2px 2px  silver;
 }
-
 .overlay .close {
-	text-decoration: none;
-	position: absolute;
-	bottom: 100px;
-	left: 650px; 
-	margin: auto;
+	color: white;
+	font-size: 20px;
 	background-color: black;
 	border:2px solid gold;
-	color: white;
+	border-radius: 5px;
+	text-decoration: none;
 	padding: 2px;
 	box-sizing: border-box;
+	position: absolute;
+	bottom:20px;
+	left:650px;
 }
 .overlay .next {
-	text-decoration: none;
-	position: absolute;
-	bottom: 100px;
-	left: 750px;
-	margin:auto;
+	color: white;
+	font-size: 20px;
 	background-color: black;
 	border:2px solid gold;
-	color: white;
+	border-radius: 5px;
+	text-decoration: none;
 	padding: 2px;
 	box-sizing: border-box;
+	position: absolute;
+	bottom:20px;
+	left:750px;
 }
 .overlay .previous {
-	text-decoration: none;
-	position: absolute;
-	bottom: 100px;
-	left: 530px;
-	margin: auto;
+	color: white;
+	font-size: 20px;
 	background-color: black;
 	border:2px solid gold;
-	color: white;
+	border-radius: 5px;
+	text-decoration: none;
 	padding: 2px;
 	box-sizing: border-box;
+	position: absolute;
+	bottom:20px;
+	left:530px;
 }
-.clear {
-	clear: both;
+/*navigasi*/
+
+.navigasi a {
+	text-decoration: none;
+	cursor: pointer;
+	color: red;
+	padding: 3px;
+	padding-left: 5px;
+	margin-left: 10px;
+	font-weight: bold;
+}
+.navigasi {
+	width: 300px;
+	display: inline-block;
+	position: absolute;
+	bottom:10px;
+}
+.navigasi a:hover {
+	background-color: yellow;
+	font-size: 18px;
+	color: blue;
 }
 /*harga*/
-.table1 {
+.table2 {
     font-family: sans-serif;
     color: white;
     border-collapse: collapse;
@@ -354,114 +232,115 @@ ul .i {
     margin-left: 100px;
 }
  
-.table1, th, td {
+.table2 tr , .table2 td , .table2 th{
     border: 1.5px solid gold;
     padding: 8px 20px;
 }
-caption {
+.table2 caption {
 	font-size: 25px;
-	color: gold;
+	color: white;
 	padding-bottom: 15px;
 }
-
 /*media*/
-
 @media screen and (max-width: 1080px){
 	.container {
 		width: auto;
-		height: 6%;
+		height: 8%;
+		padding-left: 5px;
+		box-sizing: border-box;
 	}
-	.judul {
+	.container .judul {
 		font-size: 50px;
+		color: gold;
 	}
-	.subjudul {
-		font-size: 20px;
+	.subjudul p {
+		font-size: 25px;
+		color: white;
+		padding: 2px;
+		box-sizing: border-box;
+	}
+	.container-satu {
+		width: auto;
+		height: auto;
+	}
+	.table caption {
+		padding-top: 90px;
+		font-size: 35px;
+	}
+	.listmanfaat {
+		width: 80%;
+		margin: auto;
+		padding-top: 20px;
+	}
+	.table tr, th ,td {
+		font-size: 35px;
+		border:1px solid gold;
+		box-sizing: border-box;
+		border-radius: 5px;
 	}
 	.container-dua {
-		width: 100%;
-		height: 50%;
-		position: absolute;
-		padding-top: 30px;
-		box-sizing: border-box;
-		text-align: center;
-	}
-	.manfaat h3 {
-		font-size: 40px;
-		padding-bottom: 10px;
-	}
-	.manfaat ul {
-		width: 100%;
+		width: auto;
 		height: auto;
-		display: flex;
-		flex-wrap: wrap;
-	}
-	.manfaat li {
-		width: 50%;
-		height: auto;
-		font-size: 25px;
-		left: 0;
-		padding-top: 5px;
-	}
-	.container-tiga {
-		width: 100%;
-		height: auto;
-		display: flex;
-		justify-content: center;
 		position: relative;
-		margin-left: 0;
-		margin-top: 40%;
-		padding: 2px;
-		padding-left: 20%;
-		box-sizing: border-box;
+		left: -150px;
 	}
-	.container-tiga p {
-		font-size: 25px;
-		left: 30%;
+	h1 {
+		position: relative;
+		bottom: 0;
+		right: 20px;
+		font-size: 30px;
 	}
-	.gallery {
-		width: 100%;
-		height: 100%;
-		padding-top: 30px;
+	.galery {
+		width: auto;
+	}
+	.gallery li {
+		width: auto;
+		height: auto;
 	}
 	.navigasi {
+		width: auto;
 		font-size: 25px;
 		position: absolute;
-		bottom: 10%;
+		bottom: 3%;
+	}
+	.overlay {
+		margin-top: 50px;
 	}
 	.overlay img {
 		width: 55%;
-		height: 55%;
+		height: 50%;
 		border:2px solid pink;
 		box-shadow: 3px 3px 3px pink;
 		border-radius: 2px;
+		box-sizing: border-box;
 	}
-	.table1 {
+	.table2 {
 		position: absolute;
 		font-size: 25px;
 		bottom: 20%;									
 	}
-	.table1 th,td {
+	.table2 th, .table2 td {
 		border:2px solid gold;
 	} 
-	caption {
+	.table2 caption {
 		font-size: 35px;
 	}
 	.overlay .close  {
-		font-size: 30px;
+		font-size: 35px;
 		position: absolute;
 		bottom: 25%;
 		left: 60%;
 		border-radius: 7px;
 	}
 	.overlay .next  {
-		font-size: 30px;
+		font-size: 35px;
 		position: absolute;
 		bottom: 20%;
 		left: 60%;
 		border-radius: 7px;
 	}
 	.overlay .previous  {
-		font-size: 30px;
+		font-size: 35px;
 		position: absolute;
 		bottom: 30%;
 		left: 60%;
